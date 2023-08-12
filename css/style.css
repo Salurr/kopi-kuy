@@ -88,7 +88,16 @@ h1,h2 {
 */
 
 
-a {
+   nav {
+      background-image: url(../images/background/bg_bakery.jpg); 
+   
+         background-repeat: no-repeat;
+   
+         background-size: cover;
+     
+      }
+
+     a {
    /* menghilangkan garis bawah pada link */
    text-decoration: none;
 
@@ -136,7 +145,7 @@ nav {
    untuk pengguna vscode silahkan arahkan mouse ke kotak warna di bawah
    untuk mengganti warna sesuai keinginan
    */
-   background-color: #f597bb;     
+ background-color: #f597bb;   
 
    /* box-shadow membuat efek bayangan */
    box-shadow: 0 3px 7px -2px rgb(43, 20, 20);
@@ -254,7 +263,7 @@ section.best-seller {
    position: relative;
 
    /* background-color mengatur warna latar belakang elemen */
-   background-color: #f597bb;
+   background-color: #EEE6DC;
 
    /* text-align mengatur rata tulisan, bisa bernilai: left, right, center, justify */
    text-align: center;
@@ -339,6 +348,11 @@ div.produk img:hover {
    /* membuat transformasi, bisa berupa scale(1.05), rotate(180deg), translateY(-50px), dsb */
    transform: scale(0.9);
    border-radius: 50%;
+}
+
+div.produk p {
+   margin-top: 15px;
+   font-weight: bold;
 }
 
 div.produk p {
@@ -517,7 +531,7 @@ div.kontak {
 /* FOOTER */
 
 footer {
-   background-color: #198754;
+   background-color: #7c6f75;
    padding-top: 15px;
    padding-bottom: 15px;
    color: #fff;
@@ -566,11 +580,7 @@ footer div.navigasi a {
    }
 }
 
-body {
 
-   background-image:url(images/header/h4.jpg);
-   
-   }
 
 
 
